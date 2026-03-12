@@ -38,3 +38,7 @@ fpga/mem/
 fpga/mem_*/
 fpga/mem_chunks/
 fpga/mem_test_*/
+fpga/tb/*.mem
+
+# Generated Vivado project outputs
+fpga/vivado/emg_logreg_fpga/
