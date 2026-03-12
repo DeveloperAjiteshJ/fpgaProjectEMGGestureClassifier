@@ -1,0 +1,40 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Vivado generated/transient files
+*.jou
+*.log
+*.str
+*.backup.jou
+*.backup.log
+.Xil/
+
+fpga/vivado/emg_logreg_fpga/.Xil/
+fpga/vivado/emg_logreg_fpga/*.cache/
+fpga/vivado/emg_logreg_fpga/*.gen/
+fpga/vivado/emg_logreg_fpga/*.ip_user_files/
+fpga/vivado/emg_logreg_fpga/*.runs/
+fpga/vivado/emg_logreg_fpga/*.sim/
+
+# Optional large snapshots/checkpoints (uncomment if you do not want them in GitHub)
+checkpoints/
+
+# Large ML artifacts/datasets (not suitable for normal GitHub push)
+artifacts/
+data/
+EMG_data_for_gestures-master/
+*.joblib
+
+# Generated FPGA memory/sample assets
+fpga/mem/
+fpga/mem_*/
+fpga/mem_chunks/
+fpga/mem_test_*/

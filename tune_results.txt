@@ -1,0 +1,27 @@
+Loaded w250 features: X shape=(4133, 120), y shape=(4133,)
+Classes: [1 2 3 4 5 6 7]
+
+Extracting full w250 dataset (this may take a minute)...
+Extracted full dataset: (27552, 120)
+Train: (19286, 120), Val: (4133, 120), Test: (4133, 120)
+
+================================================================================
+Testing LogisticRegression with different C values:
+================================================================================
+Traceback (most recent call last):
+  File "C:\Users\jajit\OneDrive\Desktop\dsd_project\scripts\quick_tune_logreg.py", line 94, in <module>
+    print(f"C={C:8.3f} \u2192 test_acc={test_acc:.4f} val_f1={val_f1:.4f}{over_90}")
+  File "C:\Users\jajit\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 11: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jajit\OneDrive\Desktop\dsd_project\scripts\quick_tune_logreg.py", line 98, in <module>
+    print(f"C={C:8.3f} \u2192 ERROR: {e}")
+  File "C:\Users\jajit\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 11: character maps to <undefined>

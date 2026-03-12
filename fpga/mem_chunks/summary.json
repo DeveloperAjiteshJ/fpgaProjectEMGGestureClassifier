@@ -1,0 +1,9 @@
+{
+  "chunk_size": 1024,
+  "n_chunks": 5,
+  "n_samples_total": 4133,
+  "n_features": 120,
+  "n_classes": 7,
+  "golden_correct_total": 3621,
+  "golden_accuracy_total": 0.8761190418582143
+}
